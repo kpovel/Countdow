@@ -4,7 +4,6 @@ import {format, intervalToDuration, formatDuration} from 'date-fns';
 UI_ELEMENTS.SUBMIT.addEventListener('click', getResultCountdown);
 
 
-// eslint-disable-next-line require-jsdoc
 function getResultCountdown() {
   const selectedDate = UI_ELEMENTS.DATE.valueAsNumber;
   const formattedSelectedDate = format(new Date(selectedDate), 'PPP');
